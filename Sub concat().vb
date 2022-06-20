@@ -1,3 +1,9 @@
+'Removes a single large span of spaces. Useful to undo format where the original author used spaces instead of new lines to format the output of formulas. 
+'Using spaces to format leads to odd formatting as the sheet is zoomed in or out.
+
+
+
+
 Sub concat()
 Dim match As Integer
 Dim nomore As Boolean
